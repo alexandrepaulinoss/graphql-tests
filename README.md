@@ -11,7 +11,7 @@ Run: `npm run dev:simple`
 
 - Create user:
   ```
-    mutation CreateUser($name: String!) {
+  mutation CreateUser($name: String!) {
     createUser(name: $name) {
       id
     }
@@ -76,6 +76,6 @@ Run: `npm run dev`
 
 
 ### References
-https://www.youtube.com/watch?v=1dz48pReq_c
-https://graphql.org/
-https://typegraphql.com/
+- https://www.youtube.com/watch?v=1dz48pReq_c
+- https://graphql.org/
+- https://typegraphql.com/
